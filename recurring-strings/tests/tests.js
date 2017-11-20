@@ -23,7 +23,7 @@ describe("recurringStrings", () => {
       });
 
       it('should return the number occurences of each word', () =>{
-        expect(recurringStrings("well well somto, you completed this challenge")).to.eql({well:2, 'somto,':1, you:1, completed:1, this:1, challenge:1});
+        expect(recurringStrings("well well somto you completed this challenge")).to.eql({well:2, somto:1, you:1, completed:1, this:1, challenge:1});
       });
 
 
